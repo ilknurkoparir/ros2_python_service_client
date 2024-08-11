@@ -30,4 +30,6 @@ $ cd ros2 interface show example_interfaces/srv/AddTwoInts
 ```
 
 `AddTwoInts` servisi, ROS2'nin `example_interfaces` paketinde bulunan ve iki tamsayıyı toplamak için kullanılan önceden tanımlanmış bir servistir. int64 a ve int64 b request temsil ederken int64 sum değeri response temsil etmektedir.
+- **Sunucu (Server) Düğümü**: İki tamsayıyı toplayan ve sonucu döndüren bir servis sunmaktadır.
+- **İstemci (Client) Düğümü**: Sunucuya iki tamsayı göndererek toplam sonucunu almaktadır.
 ![Screenshot from 2024-08-10 13-54-03](https://github.com/user-attachments/assets/94214e2a-b516-4bff-b5a4-668d1a97ae0b)
