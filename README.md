@@ -21,3 +21,13 @@ $ chmod +x my_client.py
 
 ```
 
+# STEP 2 : Interfaces
+```bash
+$ cd ros2 interface show example_interfaces/srv/AddTwoInts
+
+![Screenshot from 2024-08-10 13-54-03](https://github.com/user-attachments/assets/94214e2a-b516-4bff-b5a4-668d1a97ae0b)
+
+
+
+
+```
