@@ -1,7 +1,7 @@
 Bu proje, ROS2 üzerinde hazır arayüzlerden biri olan `example_interfaces/srv/AddTwoInts` kullanarak python'da servis ve istemci yapısı oluşturulmuştur.
 
 # 1. Adım  : Çalışma Alanı ve Paket Oluşturma
-# Create Workspace
+
 ```bash
 $ source /opt/ros/humble/setup.bash
 $ mkdir ros2_server_client_ws
