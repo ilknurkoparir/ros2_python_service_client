@@ -1,4 +1,6 @@
-# STEP 1 : Create Workspace and Package
+Bu proje, ROS2 üzerinde hazır arayüzlerden biri olan `example_interfaces/srv/AddTwoInts` kullanarak python'da servis ve istemci yapısı oluşturulmuştur.
+
+# 1. Adım  : Çalışma Alanı ve Paket Oluşturma
 # Create Workspace
 ```bash
 $ source /opt/ros/humble/setup.bash
@@ -11,7 +13,7 @@ $ colcon build --packages-select server_client_pkg --symlink-install
 
 
 ```
-# Create Node
+# Node(Düğüm) Oluşturma
 ```bash
 $ cd ros2_server_client_ws/src/server_client_pkg/server_client_pkg/
 $ touch my_server.py
@@ -26,4 +28,6 @@ $ chmod +x my_client.py
 $ cd ros2 interface show example_interfaces/srv/AddTwoInts
 
 ```
+
+`AddTwoInts` servisi, ROS2'nin `example_interfaces` paketinde bulunan ve iki tamsayıyı toplamak için kullanılan önceden tanımlanmış bir servistir. int64 a ve int64 b request temsil ederken int64 sum değeri response temsil etmektedir.
 ![Screenshot from 2024-08-10 13-54-03](https://github.com/user-attachments/assets/94214e2a-b516-4bff-b5a4-668d1a97ae0b)
