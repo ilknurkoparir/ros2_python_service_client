@@ -35,8 +35,8 @@ $ cd ros2 interface show example_interfaces/srv/AddTwoInts
 
 - **Sunucu (Server) Düğümü**: İki tamsayıyı toplayan ve sonucu döndüren bir servis sunmaktadır.
 - **İstemci (Client) Düğümü**: Sunucuya iki tamsayı göndererek toplam sonucunu almaktadır.
+![Screenshot from 2024-08-12 09-05-07](https://github.com/user-attachments/assets/2d178a01-f49e-4873-bc85-5da79ca1b488)
 
-  ![Screenshot from 2024-08-11 17-06-05](https://github.com/user-attachments/assets/f4090cba-715c-4a04-94aa-dbecb4429197)
 
 
  
